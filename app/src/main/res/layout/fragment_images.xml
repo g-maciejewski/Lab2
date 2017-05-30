@@ -1,0 +1,89 @@
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+
+    app:columnCount="3"
+    app:rowCount="2"
+    tools:context="pl.edu.pwr.maciejewski.grzegorz.lab2.FragmentsActivities.MovieImagesFrag">
+
+    <ImageView
+        android:id="@+id/ivStill1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:contentDescription="@string/still"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:background="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/ivStill2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:contentDescription="@string/still"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:background="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/ivStill3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:contentDescription="@string/still"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:background="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/ivStill4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:contentDescription="@string/still"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:background="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/ivStill5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:contentDescription="@string/still"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:background="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/ivStill6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:contentDescription="@string/still"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:background="@color/colorAccent" />
+</android.support.v7.widget.GridLayout>

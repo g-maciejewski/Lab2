@@ -3,4 +3,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="default_font_size">25sp</dimen>
     <dimen name="default_margin">8dp</dimen>
+    <dimen name="actor_image">120dp</dimen>
 </resources>
